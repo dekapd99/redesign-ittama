@@ -4,6 +4,7 @@
 ## About The Project
 
 Deskripsi Project
+Semangat gengs dan mas deka terutama wkwk!
 
 ### Built With
 
