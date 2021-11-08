@@ -5,20 +5,233 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap Icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/beranda.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <title>Hello, world!</title>
+    <title>Inspektorat Utama</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Header Page -->
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo-setjen" src="img/logo-setjen.png" alt="" width="50" height="50" class="d-inline-block align-text-center"> Setjen DPR RI
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artikel
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Berita</a></li>
+                  <li><a class="dropdown-item" href="#">Rubrik</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profil
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
+                  <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
+                  <li><a class="dropdown-item" href="#">Struktur</a></li>
+                  <li><a class="dropdown-item" href="#">Dasar Hukum</a></li>
+                  <li><a class="dropdown-item" href="#">Galeri</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Layanan
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Whistleblow</a></li>
+                  <li><a class="dropdown-item" href="#">PPID</a></li>
+                  <li><a class="dropdown-item" href="#">LHKASN</a></li>
+                  <li><a class="dropdown-item" href="#">SISUSAN</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Publikasi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Renstra</a></li>
+                  <li><a class="dropdown-item" href="#">Peraturan</a></li>
+                  <li><a class="dropdown-item" href="#">Buku</a></li>
+                  <li><a class="dropdown-item" href="#">Terjemahan</a></li>
+                  <li><a class="dropdown-item" href="#">PPM</a></li>
+                  <li><a class="dropdown-item" href="#">Laporan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kontak
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Kontak Kami</a></li>
+                  <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!-- Content -->
+    <div class="container">
+      Content
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-warning">
+      <!-- Section: Footer Menu  -->
+      <section class="footer-menu">
+        <div class="container text-center text-md-start text-dark pt-5">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Artikel -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <h6 class="text-uppercase fw-bold mb-3">
+                Artikel
+              </h6>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark text-dark">Berita</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Rubrik</a>
+              </p>
+            </div>
+            <!-- Artikel -->
+
+            <!-- Profil -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <h6 class="text-uppercase fw-bold mb-3">
+                Profil
+              </h6>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Tentang Kami</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Sejarah</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Visi & Misi</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Struktur</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Dasar Hukum</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Galeri</a>
+              </p>
+            </div>
+            <!-- Profil -->
+
+            <!-- Layanan -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <h6 class="text-uppercase fw-bold mb-3">
+                Layanan
+              </h6>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Whistleblow</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">PPID</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">LHKASN</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">SISUSAN</a>
+              </p>
+            </div>
+            <!-- Layanan -->
+
+            <!-- Publikasi -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <h6 class="text-uppercase fw-bold mb-3">
+                Publikasi
+              </h6>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Renstra</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Peraturan</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Buku</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Terjemahan</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">PPM</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Laporan</a>
+              </p>
+            </div>
+            <!-- Publikasi -->
+
+            <!-- Kontak -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <h6 class="text-uppercase fw-bold mb-3">
+                Kontak
+              </h6>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Kontak Kami</a>
+              </p>
+              <p>
+                <a href="#!" class="text-decoration-none text-dark">Hubungi Kami</a>
+              </p>
+            </div>
+            <!-- Kontak -->
+
+            <!-- Social Media -->
+            <div class="right-footer d-flex col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+              <div class="social-media text-center">
+                <p>Follow our social media</p>
+                <a href="#"><i class="bi bi-youtube h2 text-dark mx-2"></i></a>
+                <a href="#"><i class="bi bi-instagram h2 text-dark mx-2"></i></a>
+                <a href="#"><i class="bi bi-facebook h2 text-dark mx-2"></i></a>
+              </div>
+            </div>
+            <!-- Social Media -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-2 text-light bg-warning">
+        © Copyright 2021. Magang di Rumah Rakyat DPR RI. Hak cipta dilindungi Undang-Undang.
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     

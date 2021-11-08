@@ -1,3 +1,16 @@
-/* .test{
-    color: aqua;
-} */
+p{
+    margin-bottom: 0.5rem;
+}
+
+.logo-setjen{
+    margin-right: 0.5rem;
+}
+
+.right-footer{
+    border-left: 3px solid black;
+}
+
+.social-media{
+    align-self: center;
+    margin-left: 20px;
+}
