@@ -19,7 +19,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About
-Redesign Website Ittama bertujuan untuk mendesain ulang website versi lama menjadi versi terbaru. Proyek ini merupakan bagian dari Program Magang Kampus Merdeka yang merupakan bagian dari Kelompok Kharis Suhud di Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia.
+Redesign Website Ittama bertujuan untuk mendesain ulang website versi lama menjadi versi terbaru. Proyek ini merupakan bagian dari Program Magang Kampus Merdeka Kelompok Kharis Suhud di Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia.
 
 ### Build With:
 
