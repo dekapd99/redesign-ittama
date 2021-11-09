@@ -1,2 +1,44 @@
+# OS / Editor folders
+._*
+.cache
 .DS_Store
-.bootstrap
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+/.vscode/
+
+# Docs files
+/_site/
+
+# File Extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*.zip
+*~
+
+# Local Netlify folder
+.netlify
+
+# Komodo
+.komodotools
+*.komodoproject
+
+# Hugo files & folders
+/resources/
+/.hugo_build.lock
+
+# Folders
+/js/coverage/
+/node_modules/
