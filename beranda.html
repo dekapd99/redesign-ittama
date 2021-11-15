@@ -14,88 +14,182 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/beranda.css">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
     <title>Inspektorat Utama</title>
   </head>
   <body>
-    <!-- Header Page -->
-    <header>
-      <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img class="logo-setjen" src="img/logo-setjen.png" alt="" width="50" height="50" class="d-inline-block align-text-center"> Setjen DPR RI
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Artikel
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Berita</a></li>
-                  <li><a class="dropdown-item" href="#">Rubrik</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Profil
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
-                  <li><a class="dropdown-item" href="#">Sejarah</a></li>
-                  <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-                  <li><a class="dropdown-item" href="#">Struktur</a></li>
-                  <li><a class="dropdown-item" href="#">Dasar Hukum</a></li>
-                  <li><a class="dropdown-item" href="#">Galeri</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Layanan
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Whistleblow</a></li>
-                  <li><a class="dropdown-item" href="#">PPID</a></li>
-                  <li><a class="dropdown-item" href="#">LHKASN</a></li>
-                  <li><a class="dropdown-item" href="#">SISUSAN</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Publikasi
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Renstra</a></li>
-                  <li><a class="dropdown-item" href="#">Peraturan</a></li>
-                  <li><a class="dropdown-item" href="#">Buku</a></li>
-                  <li><a class="dropdown-item" href="#">Terjemahan</a></li>
-                  <li><a class="dropdown-item" href="#">PPM</a></li>
-                  <li><a class="dropdown-item" href="#">Laporan</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Kontak
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Kontak Kami</a></li>
-                  <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
-                </ul>
-              </li>
-            </ul>
+    <div class="container-fluid">
+      <!-- Header Page -->
+      <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img class="img-fluid" src="img/navbar-logo-dpr.png" alt="" width="90" height="auto" class="d-inline-block align-text-center"> Sekretariat Jenderal DPR RI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2 fs-6">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Artikel
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Berita</a></li>
+                    <li><a class="dropdown-item" href="#">Rubrik</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Profil
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
+                    <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                    <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
+                    <li><a class="dropdown-item" href="#">Struktur</a></li>
+                    <li><a class="dropdown-item" href="#">Dasar Hukum</a></li>
+                    <li><a class="dropdown-item" href="#">Galeri</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Layanan
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Whistleblow</a></li>
+                    <li><a class="dropdown-item" href="#">PPID</a></li>
+                    <li><a class="dropdown-item" href="#">LHKASN</a></li>
+                    <li><a class="dropdown-item" href="#">SISUSAN</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Publikasi
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Renstra</a></li>
+                    <li><a class="dropdown-item" href="#">Peraturan</a></li>
+                    <li><a class="dropdown-item" href="#">Buku</a></li>
+                    <li><a class="dropdown-item" href="#">Terjemahan</a></li>
+                    <li><a class="dropdown-item" href="#">PPM</a></li>
+                    <li><a class="dropdown-item" href="#">Laporan</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Kontak
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Kontak Kami</a></li>
+                    <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navigation Bar -->
+      </header>
+      <!-- Header Page -->
+
+      <!-- Section Content -->
+
+      <!-- Inspektorat Utama  -->
+      <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <h1 class="fw-bolder">Inspektorat Utama Sekretariat Jenderal <br> DPR RI</h1>
+            <p class="fs-5">Portal resmi informasi lembaga inspektorat utama Sekretariat Jenderal DPR RI</p>
+          </div>
+          <div class="col-6">
+            <img src="img/home-hero.png" class="img-fluid" alt="">
           </div>
         </div>
-      </nav>
+      </div>
+      <!-- Inspektorat Utama  -->
 
-    </header>
+      <!-- Berita Terkini -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5 mb-2">
+            <h2 class="fw-bold">Berita Terkini</h2>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/home-card-1.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title fw-bold lh-base">Puan Maharani Bagi-bagi <br> Tugas 4 Wakil Ketua DPR RI</h5>
+                <p class="card-text">Ketua DPR Puan Maharani membagi tugas, pokok dan fungsi (Tupoksi) empat wakil ketua DPR RI yang baru...</p>
+                <a href="#" class="btn btn-outline-warning mt-3 py-2 text-center">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/home-card-2.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title fw-bold lh-base">Anggota DPR Kritisi Anggaran Cetak Kartu Tani</h5>
+                <p class="card-text">Anggota Komisi IV DPR RI Slamet menyoroti program kebijakan kartu tani yang anggarannya mencapai ratusan...</p>
+                <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/home-card-3.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title fw-bold lh-base">Puan Maharani Bagi-bagi Tugas 4 Wakil Ketua DPR RI</h5>
+                <p class="card-text">Ketua DPR RI Puan Maharani mendorong agar kenaikan upah minimum tahun 2022 dapat...</p>
+                <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Berita Terkini -->
+      
+      <!-- Tentang Kami -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 my-5 text-center">
+            <h2 class="fw-bold">Tentang Kami</h2>
+          </div>
+          <div class="col-8 offset-2 mb-5 text-center">
+            <a href="#"><img src="img/youtube.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!-- Tentang Kami -->
 
-    <!-- Content -->
-    <div class="container">
-      Content
+      <!-- Whistleblowing System -->
+      <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-5">
+            <img src="img/home-hero-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-6 offset-1">
+            <h2 class="fw-bolder">Whistleblowing System</h2>
+            <p class="fs-5">Whistleblowing System adalah aplikasi yang ditujukan bagi saudara yang memiliki informasi tentang dugaan tindak pidana korupsi di lingkungan Sekretariat Jenderal  DPR RI dan ingin melaporkan informasi tersebut.</p>
+            <div class="col-12 pt-4">
+              <div class="btn-title">
+                <button type="button" class="btn btn-outline-warning">Buat Aduan</button>
+                <button type="button" class="btn btn-outline-warning mx-3">Lacak Aduan</button>
+                <button type="button" class="btn btn-outline-warning">Panduan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Whistleblowing System -->
     </div>
+    <!-- Content -->
 
     <!-- Footer -->
     <footer class="bg-warning">
@@ -218,8 +312,6 @@
           <!-- Grid row -->
         </div>
       </section>
-      <!-- Section: Links  -->
-
       <!-- Copyright -->
       <div class="text-center p-2 text-light bg-warning">
         © Copyright 2021. Magang di Rumah Rakyat DPR RI. Hak cipta dilindungi Undang-Undang.

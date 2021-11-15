@@ -1,9 +1,18 @@
-p{
-    margin-bottom: 0.5rem;
+body{
+    font-family: 'Inter', sans-serif;
 }
 
-.logo-setjen{
-    margin-right: 0.5rem;
+.container-fluid{
+    width: 80%;
+}
+    
+p{
+    margin-bottom: 0;
+}
+
+.btn{
+    color: black;
+    font-weight: 600;
 }
 
 .right-footer{
@@ -13,4 +22,8 @@ p{
 .social-media{
     align-self: center;
     margin-left: 20px;
+}
+
+.wbs{
+    margin: 7rem 0;
 }
