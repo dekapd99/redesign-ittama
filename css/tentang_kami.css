@@ -1,3 +1,11 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container-fluid{
+    width: 80%;
+}
+
 p{
     margin-bottom: 0.5rem;
 }

@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#" target="_blank"><img src="img/logo-setjen.png" width="200"></a>
+  <a href="#" target="_blank"><img src="img/navbar-logo-dpr.png" width="200"></a>
   <br>
   Inspektorat Utama (Ittama)
   <br>
