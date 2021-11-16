@@ -19,9 +19,12 @@ p{
     border-left: 3px solid black;
 }
 
-.social-media{
-    align-self: center;
-    margin-left: 20px;
+.footer-link{
+    margin-bottom: 0.25rem;
+}
+
+.footer-border{
+    border-right: 2px solid black;
 }
 
 .wbs{
