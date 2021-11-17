@@ -14,6 +14,13 @@ p{
     margin-right: 0.5rem;
 }
 
+.card-kontak{
+    border-radius: 1rem;
+    border: none;
+    background-color:#F9EDDC
+    ;
+}
+
 .right-footer{
     border-left: 3px solid black;
 }
