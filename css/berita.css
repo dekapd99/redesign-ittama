@@ -35,12 +35,10 @@ p {
 .tag-link {
   text-decoration: none;
   margin-right: 30px;
-  color: black;
+  color: #152536;
 }
 
 .tag-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #ffc107;
   color: black;
 }
 
@@ -52,12 +50,6 @@ p {
 .keterangan-card {
   display: flex;
   flex-direction: row;
-}
-
-.ket {
-  text-decoration: underline;
-  text-decoration-color: #ffc107;
-  margin-right: 20px;
 }
 
 .news-card {
