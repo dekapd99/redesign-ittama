@@ -90,6 +90,7 @@ Anggota Kelompok Kharis Suhud yang berkontribusi dalam pengerjaan proyek terdiri
 * [Radya Farrel Pamesthi](https://github.com/raadyaa)
 * [Sekar Nityasa](https://github.com/snityasa)
 * [Thomas Bimo Bagaskara](https://github.com/Bimobgskara)
+* [Anindya Nakhwa Mutiara Ariiba](https://github.com/aninnma)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
