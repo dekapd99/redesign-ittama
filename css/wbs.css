@@ -2,28 +2,173 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.container-fluid{
-    width: 80%;
+a{
+    text-decoration: none;
 }
-    
+
 p{
     margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    margin-bottom: 0.25rem;
 }
 
 .btn{
     color: black;
     font-weight: 600;
+    font-size: 0.8125rem;
+}
+
+.btn:hover{
+    color: #ffffff;
+}
+
+.wbs-margin{
+    margin: 5rem 0 !important;
+}
+
+.wbs-data{
+    background-color: #FFC107;
 }
 
 .right-footer{
     border-left: 3px solid black;
 }
 
-.social-media{
-    align-self: center;
-    margin-left: 20px;
+.link{
+    position: relative;
 }
 
-.wbs{
-    margin: 7rem 0;
+.link:hover{
+    color: #ffffff !important;
+}
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.border-line{
+    border-top: 2px solid black;
+}
+
+.social-text{
+    font-size: 1.25rem;
+}
+
+.social-icon {
+    height: auto;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-icon i {
+    transition: 0.4s all;
+}
+
+.social-icon:hover i {
+    transform: scale(1.4);
+}
+
+.social-youtube{
+    color: #FF0000;
+}
+
+.social-instagram{
+    color: #E1306C;
+}
+
+.social-facebook{
+    color: #4267B2;
+}
+
+/* Bootstrap Breakpoints antara >576px */
+/* Kode prefix sm */
+@media only screen and (min-width: 576px){
+
+}
+
+/* Bootstrap Breakpoints antara >768px */
+/* Kode prefix md */
+@media only screen and (min-width: 769px){
+    .hero-text{
+        order: 1;
+    }
+    
+    .hero-img{
+        order: 2;
+    }
+
+    .hero-img img, .wbs-img img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .border-line{
+        border-top: none;
+    }
+
+    .footer-menu{
+        font-size: 1.2rem !important;
+    }
+
+    .link{
+        font-size: 0.95rem;
+    }
+
+    .footer-border{
+        border-right: 2px solid black;
+    }
+}
+
+/* Bootstrap Breakpoints antara >768px */
+/* Kode prefix lg */
+@media only screen and (min-width: 992px){
+    .title{
+        font-size: 2.5rem!important;;
+    }
+
+    .text-content{
+        font-size: 1.25rem!important;
+    }
+    
+    .btn{
+        font-size: 1rem;
+    }
+
+    .border-line{
+        border-top: none;
+    }
+
+    .footer-border{
+        border-right: 2px solid black;
+    }
+    
+    .social-text{
+        font-size: 1rem;
+    }
 }
