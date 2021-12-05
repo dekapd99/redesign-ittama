@@ -30,17 +30,12 @@ ul li{
     color: #ffffff;
 }
 
-.hero-text{
-    order: 2;
+.wbs-margin{
+    margin: 5rem 0 !important;
 }
 
-.hero-img{
-    order: 1;
-}
-
-.hero-img img, .wbs-img img{
-    width: 80%;
-    height: auto;
+.wbs-data{
+    background-color: #FFC107;
 }
 
 .right-footer{
