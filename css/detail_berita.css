@@ -1,0 +1,33 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container-fluid{
+    width: 80%;
+}
+    
+p{
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+.btn{
+    color: black;
+    font-weight: 600;
+}
+
+.right-footer{
+    border-left: 3px solid black;
+}
+
+.footer-link{
+    margin-bottom: 0.25rem;
+}
+
+.footer-border{
+    border-right: 2px solid black;
+}
+
+.wbs{
+    margin: 7rem 0;
+}
