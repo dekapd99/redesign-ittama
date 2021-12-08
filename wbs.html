@@ -1,247 +1,363 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap Icon CDN-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/wbs.css">
+  <!-- Bootstrap Icon CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/wbs.css">
 
-    <title>Inspektorat Utama</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <!-- Header Page -->
-      <header>
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="beranda.html">
-              <img class="img-fluid" src="img/navbar-logo-dpr.png" alt="" width="90" height="auto" class="d-inline-block align-text-center"> Sekretariat Jenderal DPR RI
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2 fs-6">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Artikel
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="berita.html">Berita</a></li>
-                    <li><a class="dropdown-item" href="#">Rubrik</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profil
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Tentang Kami</a></li>
-                    <li><a class="dropdown-item" href="#">Sejarah</a></li>
-                    <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
-                    <li><a class="dropdown-item" href="#">Struktur</a></li>
-                    <li><a class="dropdown-item" href="#">Dasar Hukum</a></li>
-                    <li><a class="dropdown-item" href="#">Galeri</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Layanan
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="wbs.html">Whistleblow</a></li>
-                    <li><a class="dropdown-item" href="#">PPID</a></li>
-                    <li><a class="dropdown-item" href="#">LHKASN</a></li>
-                    <li><a class="dropdown-item" href="#">SISUSAN</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Publikasi
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Renstra</a></li>
-                    <li><a class="dropdown-item" href="#">Peraturan</a></li>
-                    <li><a class="dropdown-item" href="#">Buku</a></li>
-                    <li><a class="dropdown-item" href="#">Terjemahan</a></li>
-                    <li><a class="dropdown-item" href="#">PPM</a></li>
-                    <li><a class="dropdown-item" href="#">Laporan</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Kontak
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="kontak.html">Kontak Kami</a></li>
-                    <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <!-- Navigation Bar -->
-      </header>
-      <!-- Header Page -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-      <!-- Section Content -->
+  <!-- Judul Website -->
+  <title>Inspektorat Utama</title>
+</head>
 
-      <!-- Whistleblowing System  -->
-      <div class="container wbs">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1 class="fw-bolder">Whistleblowing System Inspektorat Utama<br>Sekretariat Jenderal DPR RI</h1>
-          </div>
-          <div class="col-12 text-center my-3">
-            <p class="fs-5 fw-normal lh-base">Whistleblowing System (WBS) adalah aplikasi yang disediakan oleh Inspektorat Utama Sekretariat Jenderal DPR <br> RI bagi saudara yang memiliki informasi tentang dugaan tindak pidana korupsi di lingkungan Sekretariat Jenderal <br> DPR RI dan ingin melaporkan informasi tersebut kepada Sekretaris Jenderal DPR RI.</p>
-          </div>
-          <div class="col-8 offset-2 text-center">
-            <div class="btn-title">
-              <button type="button" class="btn btn-outline-warning">Buat Aduan</button>
-              <button type="button" class="btn btn-outline-warning mx-5">Lacak Aduan</button>
-              <button type="button" class="btn btn-outline-warning">Panduan</button>
-            </div>
+<body>
+  <div class="container-fluid">
+    <!-- Header Page -->
+    <header>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <!-- Navbar Logo -->
+          <a class="navbar-brand" href="beranda.html"><img class="img-fluid" src="img/navbar-logo-setjen.png" alt="..."
+              class="align-text-center"></a>
+              <!-- Navbar Title -->
+          <p class="navbar-title fw-bold">Inspektorat Utama <br> Sekretariat Jenderal DPR RI</p>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Menu -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0 gap-1">
+              
+              <!-- Menu List Artikel -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Artikel
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="berita.html"><i class="bi bi-newspaper me-2"></i>Berita</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-richtext me-2"></i>Rubrik</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu List Profil -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Profil
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="tentang_kami.html"><i class="bi bi-file-earmark-person me-2"></i>Tentang Kami</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-clock-history me-2"></i>Sejarah</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-person-workspace me-2"></i>Visi & Misi</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-people-fill me-2"></i>Struktur</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-book me-2"></i>Dasar Hukum</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-images me-2"></i>Galeri</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu List Layanan -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Layanan
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="wbs.html"><i class="bi bi-flag me-2"></i>Whistleblow</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-chat-left-dots me-2"></i>PPID</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack me-2"></i>LHKASN</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-search me-2"></i>SISUSAN</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu List Publikasi -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Publikasi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-uppercase" href="#"><i class="bi bi-archive me-2"></i>Renstra</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-ruled me-2"></i>Peraturan</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-journal-text me-2"></i>Buku</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-translate me-2"></i>Terjemahan</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-file-earmark-arrow-down me-2"></i>PPM</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="bi bi-list me-2"></i>Laporan</a></li>
+                </ul>
+              </li>
+
+              <!-- Menu List Kontak -->
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Kontak
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <!-- Section Whistleblowing System  -->
+      </nav>
+      <!-- Navigation Bar -->
+    </header>
+    <!-- Batas Akhir Header Page -->
 
-      <!-- Section Apa itu Whistleblowing System? -->
-      <div class="container">
-        <div class="row">
-          <div class="col-12 my-5 text-center">
-            <h2 class="fw-bold">Apa itu Whistleblowing System?</h2>
-          </div>
-          <div class="col-8 offset-2 mb-5 text-center">
-            <a href="#"><img src="img/youtube.png" class="img-fluid" alt=""></a>
-          </div>
+    <!-- Content -->
+    <!-- Whistleblowing System  -->
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-12">
+          <!-- Judul Halaman WBS -->
+          <p class="title fs-4 fw-bolder">Whistleblowing System Inspektorat Utama<br>Sekretariat Jenderal
+            DPR RI</p>
+        </div>
+
+        <div class="col-12 my-3">
+          <!-- Deskripsi WBS -->
+          <p class="text-content fw-normal lh-base">Whistleblowing System (WBS) adalah aplikasi yang disediakan oleh
+            Inspektorat Utama Sekretariat Jenderal DPR RI bagi saudara yang memiliki informasi tentang dugaan tindak
+            pidana korupsi di lingkungan Sekretariat Jenderal DPR RI dan ingin melaporkan informasi tersebut kepada
+            Sekretaris Jenderal DPR RI.</p>
+        </div>
+        
+        <!-- 3 Button pada Judul WBS -->
+        <div class="col-12">
+          <button type="button" class="btn btn-outline-warning">Buat Aduan</button>
+          <button type="button" class="btn btn-outline-warning mx-3 mx-sm-5">Lacak Aduan</button>
+          <button type="button" class="btn btn-outline-warning">Panduan</button>
         </div>
       </div>
-      <!-- Section Apa itu Whistleblowing System? -->
     </div>
 
-      <!-- Section Statistik Data Pengaduan WBS -->
-      <div class="wbs-data" style="background-color: #FFC107;">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 py-4 text-center">
-              <h2 class="fw-bold">Statistik Data Pengaduan WBS</h2>
-            </div>
-            <div class="col-3 offset-3 text-center">
-              <p class="fs-6 fw-bold">TOTAL PENGADUAN</p>
-              <p class="fs-1 fw-bold">10,000</p>
-            </div>
-            <div class="col-3 mb-4 text-center">
-              <p class="fs-6 fw-bold">ADUAN SELESAI</p>
-              <p class="fs-1 fw-bold">1,800</p>
-            </div>
-          </div>
+    <!-- Apa itu Whistleblowing System? -->
+    <div class="container my-5">
+      <div class="row text-center">
+        <!-- Judul Tentang Kami -->
+        <div class="col-12 mb-5">
+          <p class="title fs-4 fw-bold">Apa itu Whistleblowing System?</p>
+        </div>
+        <!-- Video Youtube Tentang Kami -->
+        <div class="col-12">
+          <a href="#"><img src="img/youtube.png" class="img-fluid" alt="..."></a>
         </div>
       </div>
-      <!-- Section Statistik Data Pengaduan WBS -->
+    </div>
+  </div>
 
-      <!-- Section Alur Pengaduan -->
-      <div class="container-fluid">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 my-5 text-center">
-              <h2 class="fw-bolder">Alur Pengaduan</h2>
-            </div>
-            <div class="col-12 text-center mb-5">
-              <img src="img/wbs-alur-pengaduan.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-4 offset-4 text-center">
-              <button type="button" class="btn btn-outline-warning mb-5">Pelajari Lebih Lanjut</button>
-            </div>
-          </div>
+  <!-- Statistik Data Pengaduan WBS -->
+  <div class="wbs-data my-5">
+    <div class="container">
+      <div class="row text-center">
+
+        <!-- Judul Statistik Data Pengaduan WBS -->
+        <div class="col-12 my-4">
+          <p class="title fs-4 fw-bold">Statistik Data Pengaduan WBS</p>
+        </div>
+
+        <!-- Total Pengaduan -->
+        <div class="col-6">
+          <p class="fw-bold">TOTAL PENGADUAN</p>
+          <p class="fs-1 fw-bold">10,000</p>
+        </div>
+
+        <!-- Aduan Selesai -->
+        <div class="col-6 mb-4">
+          <p class="fw-bold">ADUAN SELESAI</p>
+          <p class="fs-1 fw-bold">1,800</p>
         </div>
       </div>
-      <!-- Section Alur Pengaduan -->
-    <!-- Content -->
+    </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="bg-warning">
-      <div class="container-fluid py-4">
-        <div class="container">
-          <div class="row footer-row">
-            <div class="col-2">
-              <p class="fw-bold text-uppercase mb-2">Artikel</p>
-              <a href="berita.html" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Berita</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Rubrik</p></a>
+  <!-- Alur Pengaduan -->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row text-center">
+
+        <!-- Judul Alur Pengaduan -->
+        <div class="col-12">
+          <p class="title fs-4 fw-bold mb-5">Alur Pengaduan</p>
+        </div>
+
+        <!-- Timeline Alur Pengaduan -->
+        <div class="col-12">
+
+          <!-- Step 1. Tulis Laporan -->
+          <div class="timeline-steps">
+            <div class="timeline-step">
+              <div class="timeline-content">
+                <!-- Icon didalam lingkaran -->
+                <div class="inner-circle"><i class="fs-3 fw-bold bi bi-pencil-fill"></i></div>
+                <!-- Tulis Laporan -->
+                <p class="fw-bold mt-3 mb-1">Tulis Laporan</p>
+                <!-- Penjelasan Tulis Laporan -->
+                <small class="mb-0 mb-lg-0">Laporkan keluhan atau aspirasi Anda dengan jelas dan lengkap</small>
+              </div>
             </div>
-            <div class="col-2">
-              <p class="fw-bold text-uppercase mb-2">Profil</p>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Tentang Kami</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Sejarah</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">visi & misi</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">struktur</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">dasar hukum</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">galeri</p></a>
+
+            <!-- Step 2. Proses Verifikasi -->
+            <div class="timeline-step">
+              <div class="timeline-content">
+                <!-- Icon didalam lingkaran -->
+                <div class="inner-circle"><i class="fs-3 fw-bold bi bi-file-earmark-check-fill"></i></div>
+                <!-- Proses Verifikasi -->
+                <p class="fw-bold mt-3 mb-1">Proses Verifikasi</p>
+                <!-- Penjelasan Proses Verifikasi -->
+                <small class="mb-0 mb-lg-0">Laporan Anda akan diverifikasi dan diteruskan kepada instansi berwenang</small>
+              </div>
             </div>
-            <div class="col-2">
-              <p class="fw-bold text-uppercase mb-2">Layanan</p>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Whistleblow</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">PPID</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">LHKASN</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">SISUSAN</p></a>
+
+            <!-- Step 3. Tindak Lanjut -->
+            <div class="timeline-step">
+              <div class="timeline-content">
+                <!-- Icon didalam lingkaran -->
+                <div class="inner-circle"><i class="fs-3 fw-bold bi bi-person-lines-fill"></i></div>
+                <!-- Tindak Lanjut -->
+                <p class="fw-bold mt-3 mb-1">Tindak Lanjut</p>
+                <!-- Penjelasan Tindak Lanjut -->
+                <small class="mb-0 mb-lg-0">Instansi akan menindaklanjuti dan membalas laporan Anda</small>
+              </div>
             </div>
-            <div class="col-2">
-              <p class="fw-bold text-uppercase mb-2">Publikasi</p>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Renstra</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Peraturan</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Buku</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Terjemahan</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">PPM</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Laporan</p></a>
-            </div>
-            <div class="col-2 footer-border">
-              <p class="fw-bold text-uppercase mb-2">Kontak</p>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Kontak Kami</p></a>
-              <a href="#" class="text-dark text-decoration-none"><p class="footer-link text-uppercase">Hubungi Kami</p></a>
-            </div>
-            <div class="col-2 align-self-center">
-              <p class="text-center mb-2">Our Social Media</p>
-              <div class="text-center">
-                <a href="#"><i class="bi bi-youtube h2 text-dark mx-2"></i></a>
-                <a href="#"><i class="bi bi-instagram h2 text-dark mx-2"></i></a>
-                <a href="#"><i class="bi bi-facebook h2 text-dark mx-2"></i></a>
+
+            <!-- Step 4. Laporan Selesai -->
+            <div class="timeline-step">
+              <div class="timeline-content">
+                <!-- Icon didalam lingkaran -->
+                <div class="inner-circle"><i class="fs-3 fw-bold bi bi-person-check-fill"></i></div>
+                <!-- Laporan Selesai -->
+                <p class="fw-bold mt-3 mb-1">Laporan Selesai</p>
+                <!-- Penejelasan Laporan Selesai -->
+                <small class="mb-0 mb-lg-0">Laporan Anda akan terus ditindaklanjuti hingga terselesaikan</small>
               </div>
             </div>
           </div>
+
+          <!-- Button Alur Pengaduan -->
+          <div class="col-12">
+            <button type="button" class="btn btn-outline-warning my-5">Pelajari Lebih Lanjut</button>
+          </div>
+          
         </div>
       </div>
-      <div class="text-center p-2 text-light bg-warning">
-        © Copyright 2021. Magang di Rumah Rakyat DPR RI. Hak cipta dilindungi Undang-Undang.
+    </div>
+  </div>
+  <!-- Batas Akhir Content -->
+
+  <!-- Footer -->
+  <footer class="bg-warning">
+    <div class="container-fluid py-4">
+      <div class="container">
+        <div class="row">
+
+          <!-- Footer Artikel -->
+          <div class="col-4 text-center col-md-4 col-lg-2 text-lg-start text-uppercase">
+            <p class="footer-menu fw-bold fs-6 text-uppercase mb-2">Artikel</p>
+            <ul>
+              <li><a href="berita.html" class="link text-dark text-decoration-none">Berita</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Rubrik</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Profil -->
+          <div class="col-4 text-center col-md-4 col-lg-2 text-lg-start text-uppercase">
+            <p class="footer-menu fw-bold fs-6 mb-2">Profil</p>
+            <ul>
+              <li><a href="tentang_kami.html" class="link text-dark text-decoration-none">Tentang Kami</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Sejarah</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Visi & Misi</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Struktur Dasar</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Hukum</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Galeri</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Layanan -->
+          <div class="col-4 text-center col-md-4 col-lg-2 text-lg-start text-uppercase">
+            <p class="footer-menu fw-bold fs-6 mb-2">Layanan</p>
+            <ul>
+              <li><a href="wbs.html" class="link text-dark text-decoration-none">Whistleblow</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">PPID</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">LHKASN</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">SISUSAN</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Publikasi -->
+          <div class="col-6 text-center col-md-4 col-lg-2 text-lg-start text-uppercase">
+            <p class="footer-menu fw-bold fs-6 text-uppercase mb-2">Publikasi</p>
+            <ul>
+              <li><a href="wbs.html" class="link text-dark text-decoration-none">Renstra</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Peraturan</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Buku</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Terjemahan</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">PPM</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Laporan</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Kontak -->
+          <div class="col-6 text-center col-md-4 col-lg-2 text-lg-start footer-border text-uppercase">
+            <p class="footer-menu fw-bold fs-6 text-uppercase mb-2">Kontak</p>
+            <ul>
+              <li><a href="kontak.html" class="link text-dark text-decoration-none">Kontak Kami</a></li>
+              <li><a href="#" class="link text-dark text-decoration-none">Hubungi Kami</a></li>
+            </ul>
+          </div>
+
+          <!-- Footer Social Media -->
+          <div class="col-12 text-center col-md-4 col-lg-2 align-self-center">
+            <div class="border-line my-4 my-md-0"></div>
+            <p class="social-text fw-bold mb-2">Our Social Media</p>
+
+            <!-- Icon Social Media -->
+            <div class="d-flex justify-content-center">
+              <a href="#"><span class="social-icon social-youtube"><i class=" bi bi-youtube fs-2"></i></span></a>
+              <a href="#"><span class="social-icon social-instagram"><i class="bi bi-instagram fs-2 mx-5 mx-md-4 mx-lg-3"></i></span></a>
+              <a href="#"><span class="social-icon social-facebook"><i class="bi bi-facebook fs-2"></i></span></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Copyright -->
+    <div class="text-center p-2 text-light bg-warning">
+      <small>© Copyright 2021. Magang di Rumah Rakyat DPR RI. Hak cipta dilindungi Undang-Undang.</small>
+    </div>
+  </footer>
+  <!-- Batas Akhir Footer -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- JavaScript Files -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <!--
+  <!-- Option 1: Bootstrap Bundle with Popper CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
