@@ -7,52 +7,52 @@ body {
   padding: 0; */
   /* line-height: 1.5; */
 }
-a{
+a {
   text-decoration: none;
 }
 
-p{
+p {
   margin-bottom: 0;
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-ul li{
+ul li {
   margin-bottom: 0.25rem;
 }
 
 /* Buttons */
-.btn{
+.btn {
   color: black;
   font-weight: 600;
   font-size: 0.8125rem;
 }
 
-.btn:hover{
+.btn:hover {
   color: #ffffff;
 }
 
 /* Konten */
 /* Navbar Menu */
-.navbar-brand{
+.navbar-brand {
   width: 60px;
   height: auto;
 }
 
-.navbar-title{
+.navbar-title {
   font-size: 0.8125rem;
 }
 
-.dropdown-item:hover{
-  background-color: #FFC107;
+.dropdown-item:hover {
+  background-color: #ffc107;
   color: #ffffff;
 }
 
-#navbarDropdown{
+#navbarDropdown {
   font-size: 1rem;
 }
 
@@ -147,21 +147,21 @@ ul li{
 }
 
 /* Footer */
-.right-footer{
+.right-footer {
   border-left: 3px solid black;
 }
 
 /* Footer Link Hover, After dan Transform */
-.link{
+.link {
   position: relative;
 }
 
-.link:hover{
+.link:hover {
   color: #ffffff !important;
 }
 
 .link:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -179,12 +179,12 @@ ul li{
 }
 
 /* Border Footer */
-.border-line{
+.border-line {
   border-top: 2px solid black;
 }
 
 /* Social Media Icon Hover, Transition, dan Transform */
-.social-text{
+.social-text {
   font-size: 1.25rem;
 }
 
@@ -206,86 +206,85 @@ ul li{
   transform: scale(1.4);
 }
 
-.social-youtube{
-  color: #FF0000;
+.social-youtube {
+  color: #ff0000;
 }
 
-.social-instagram{
-  color: #E1306C;
+.social-instagram {
+  color: #e1306c;
 }
 
-.social-facebook{
-  color: #4267B2;
+.social-facebook {
+  color: #4267b2;
 }
-
 
 /* Bootstrap Breakpoints antara >576px */
 /* Kode prefix sm */
-@media only screen and (min-width: 576px){
-  .navbar-title{
-      font-size: 0.9rem;
+@media only screen and (min-width: 576px) {
+  .navbar-title {
+    font-size: 0.9rem;
   }
-  
-  #navbarDropdown{
-      font-size: 14px;
+
+  #navbarDropdown {
+    font-size: 14px;
   }
 }
 
 /* Bootstrap Breakpoints antara >768px */
 /* Kode prefix md */
-@media only screen and (min-width: 769px){
-  .border-line{
-      border-top: none;
+@media only screen and (min-width: 769px) {
+  .border-line {
+    border-top: none;
   }
 
-  .footer-menu{
-      font-size: 1.2rem !important;
+  .footer-menu {
+    font-size: 1.2rem !important;
   }
 
-  .link{
-      font-size: 0.95rem;
+  .link {
+    font-size: 0.95rem;
   }
 
-  .footer-border{
-      border-right: 2px solid black;
+  .footer-border {
+    border-right: 2px solid black;
   }
 }
 
 /* Bootstrap Breakpoints antara >992px */
 /* Kode prefix lg */
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   /* Responsive Tablet dan PC Navbar Menu Font Size */
-  #navbarDropdown{
-      font-size: 1rem;
+  #navbarDropdown {
+    font-size: 1rem;
   }
 
   /* Responsive Tablet dan PC Button */
-  .btn{
-      font-size: 1rem;
+  .btn {
+    font-size: 1rem;
   }
 
   /* Responsive Tablet dan PC Judul */
-  .title{
-      font-size: 2.5rem!important;;
+  .title {
+    font-size: 2.5rem !important;
   }
 
   /* Responsive Tablet dan PC Text Content */
-  .text-content{
-      font-size: 1.25rem!important;
+  .text-content {
+    font-size: 1.25rem !important;
   }
 
   /* Responsive Tablet dan PC Border Line */
-  .border-line{
-      border-top: none;
+  .border-line {
+    border-top: none;
   }
 
   /* Responsive Tablet dan PC Footer Border */
-  .footer-border{
-      border-right: 2px solid black;
+  .footer-border {
+    border-right: 2px solid black;
   }
 
   /* Responsive Tablet dan PC Social Media Text */
-  .social-text{
-      font-size: 1rem;
+  .social-text {
+    font-size: 1rem;
   }
 }
