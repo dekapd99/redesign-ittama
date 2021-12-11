@@ -133,75 +133,81 @@
 
       <div class="col-12 mt-5 mb-2">
         <!-- Title -->
-        <h2 class="text-left fw-bold">Lacak laporan anda</h2>
+        <h2 class="text-left fw-bold">Lacak aduan anda</h2>
       </div>
 
       <!-- Disclaimer section -->
-      <div class="col-12  p-3 border border-2 border-dark">
-        <p class="text-secondary">Anda dapat melihat perkembangan laporan pengaduan yang Anda berikan dengan menulis kode pengaduan yang Anda dapat setelah melakukan pengaduan.</p>
+      <div class="alert alert-secondary" role="alert">
+        <p class="text-secondary">Anda dapat melihat perkembangan laporan pengaduan yang Anda berikan dengan menulis
+          kode pengaduan yang Anda dapat setelah melakukan pengaduan.</p>
       </div>
 
       <!-- Section form -->
       <div class="col-12 my-3">
-        <form>
+
           <!-- Input topik aduan -->
-          <div class="form-group">
-            <h4 for="exampleInputEmail1" class="fw-bold mt-3 mb-2">Topik aduan</h4>
-            <input type="" class="form-control" placeholder="Tuliskan topik aduan">
+          <div class="form">
+            <h4 for="exampleInputEmail1" class="fw-bold mt-3 mb-3">Kode pengaduan</h4>
+            <input type="" class="form-control" placeholder="Masukkan kode pengaduan Anda">
           </div>
-          <!-- Input nama teradu -->
-          <div class="form-group">
-            <h4 for="exampleInputEmail1" class="fw-bold mt-3 mb-2">Nama teradu</h4>
-            <input type="" class="form-control" placeholder="Tuliskan nama teradu">
-          </div>
-          <!-- Dropdown unit kerja teradu -->
-          <div class="form-group">
-            <h4 class="fw-bold mt-3 mb-2">Unit kerja teradu</h4>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Pilih unit kerja teradu</option>
-                <option value="">Pilih Data...</option>
-                <option value="104">SEKRETARIAT KORPRI</option>
-                <option value="502">BIRO PERSIDANGAN I</option>
-                <option value="542">BIRO PERSIDANGAN II</option>
-                <option value="562">BIRO KESEKRETARIATAN PIMPINAN</option>
-                <option value="592">BIRO KERJA SAMA ANTAR PARLEMEN DAN ORGANISASI INTERNASIONAL</option>
-                <option value="605">BIRO PEMBERITAAN PARLEMEN</option>
-                <option value="617">BIRO PROTOKOL DAN HUBUNGAN MASYARAKAT</option>
-                <option value="629">BIRO HUKUM DAN PENGADUAN MASYARAKAT</option>
-                <option value="639">BIRO SUMBER DAYA MANUSIA APARATUR</option>
-                <option value="652">BIRO ORGANISASI DAN PERENCANAAN</option>
-                <option value="664">BIRO KEUANGAN</option>
-                <option value="677">BIRO PENGELOLAAN BANGUNAN DAN WISMA</option>
-                <option value="688">BIRO UMUM</option>
-                <option value="703">PUSAT PERANCANGAN UNDANG-UNDANG</option>
-                <option value="705">PUSAT KAJIAN ANGGARAN</option>
-                <option value="707">PUSAT KAJIAN AKUNTABILITAS KEUANGAN NEGARA</option>
-                <option value="709">PUSAT PENELITIAN</option>
-                <option value="711">PUSAT PEMANTAUAN PELAKSANAAN UNDANG-UNDANG</option>
-                <option value="717">INSPEKTORAT I</option>
-                <option value="719">INSPEKTORAT II</option>
-                <option value="724">PUSAT PENDIDIKAN DAN PELATIHAN</option>
-                <option value="728">PUSAT TEKNOLOGI INFORMASI</option>
-            </select>
-          </div>
-          <!-- Textarea uraian pengaduan -->
-          <div class="form-group">
-            <h4 for="exampleFormControlTextarea1" class="fw-bold mt-3 mb-2">Uraikan pengaduan</h4>
-            <textarea class="form-control" placeholder="Uraikan aduan anda disini" id="exampleFormControlTextarea1"
-              rows="3"></textarea>
-          </div>
-          <!-- File inputs -->
-          <div class="form-group">
-            <h4 for="exampleFormControlTextarea1" class="fw-bold mt-3 mb-3">File attachment</h4>
-            <div class="text-center p-5 border border-1 ">
-              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          
+          <button class="btn btn-warning my-4" type="button" data-bs-toggle="collapse" data-bs-target="#detailLacakAduan" aria-expanded="false" aria-controls="collapseExample" >Lacak Aduan</button>
+      </div>
+
+      <div class="collapse" id="detailLacakAduan">
+      <!-- Detail lacak aduan -->
+      <div class="col-12 mb-5">
+        <div class="card">
+          <h5 class="card-header fw-bold bg-warning py-3 ps-4">Status aduan</h5>
+          <!-- Card body -->
+          <div class="card-body mt-3 mb-4">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  Nomor aduan
+                  <h5 class="card-title pt-2 fw-bold user-select-all">9uSfO5L0</h5>
+                </div>
+                <div class="col">
+                  Status
+                  <h5 class="card-title pt-2 fw-bold text-warning">Dalam proses</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <h5 class="mt-3 mb-2">Topik aduan</h5>
+                    <input type="" class="form-control" placeholder="Topik aduan" readonly>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <h5 class="mt-3 mb-2">Nama teradu</h5>
+                    <input type="" class="form-control" placeholder="Nama teradu" readonly>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <h5 class="mt-3 mb-2">Unit kerja teradu</h5>
+                    <input type="" class="form-control" placeholder="Unit kerja teradu" readonly>
+                </div>
+                <div class="col">
+                  <div class="form-group">
+                    <h5 class="mt-3 mb-2">Uraian pengaduan</h5>
+                    <textarea class="form-control" placeholder="Uraian aduan" 
+                      rows="3" readonly ></textarea>
+                  </div>
+                </div>
+
+                
+              </div>
+              </div>
+              
+            </div>
             </div>
           </div>
-          <!-- Submit button -->
-          <button type="submit" class="btn btn-warning mt-4">Submit</button>
-        </form>
+          </div>
+        </div>
       </div>
     </div>
+
 
     <!-- Batas Akhir Content -->
 
