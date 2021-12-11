@@ -83,7 +83,8 @@
                   Layanan
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="wbs.html"><i class="bi bi-flag me-2"></i>Whistleblow</a></li>
+                  <li><a class="dropdown-item" href="wbs-landingpage.html"><i
+                        class="bi bi-flag me-2"></i>Whistleblow</a></li>
                   <li><a class="dropdown-item" href="https://ppid.dpr.go.id"><i
                         class="bi bi-chat-left-dots me-2"></i>PPID</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack me-2"></i>LHKASN</a></li>
@@ -204,7 +205,60 @@
             </div>
           </div>
           <!-- Submit button -->
-          <button type="submit" class="btn btn-warning mt-4">Submit</button>
+          <button type="button" class="btn btn-warning mt-4" data-bs-toggle="modal"
+            data-bs-target="#promptBuatAduan">Submit</button>
+
+          <!-- Modal 1-->
+          <div class="modal fade" id="promptBuatAduan" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content p-5">
+                <div class="modal-body">
+                  <h3 class="fw-bold text-center">Apakah anda yakin telah mengisikan laporan dengan benar?</h1>
+                </div>
+                <div class="modal-footer justify-content-center text-nowrap">
+                  <button type="button" class="btn btn-warning btn-block" data-bs-toggle="modal"
+                    data-bs-target="#pengaduanDiterima" data-bs-dismiss="modal">Iya</button>
+                  <button type="button" class="btn btn-outline-warning" data-bs-dismiss="modal">Tidak</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 2 -->
+          <div class="modal fade" id="pengaduanDiterima" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content p-4">
+                <div class="modal-header">
+                  <h3 class="fw-bold text-center">Pengaduan anda telah kami terima!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Alert -->
+                  <div class="alert alert-warning" role="alert">
+                    Terima kasih atas pengaduan Anda, kami akan memproses aduan Saudara terlebih dahulu.
+                    Mari kita bantu Sekretariat Jenderal DPR RI agar menjadi organisasi yang lebih baik melalui
+                    pribadi-pribadi yang berintegritas!
+                  </div>
+                  <!-- Kode pengaduan -->
+                  <div class="card">
+                    <h5 class="card-header fw-bold bg-warning">Kode pengaduan</h5>
+                    <div class="card-body justify-content-center">
+                      <h5 class="card-title pt-2 fw-bold">9uSfO5L0</h5>
+                      <p class="card-text pb-3">Harap menyimpan kode pengaduan di atas agar Anda dapat memantau
+                        perkembangan laporan Anda.</p>
+                      <a href="wbs-lacakpengaduan.html" class="btn btn-warning">Lacak Aduan</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         </form>
       </div>
     </div>
