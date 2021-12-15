@@ -31,3 +31,73 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
+
+/* Bootstrap Breakpoints antara >576px */
+/* Kode prefix sm */
+@media only screen and (min-width: 576px) {
+  .navbar-title {
+    font-size: 0.9rem;
+  }
+
+  #navbarDropdown {
+    font-size: 14px;
+  }
+}
+
+/* Bootstrap Breakpoints antara >768px */
+/* Kode prefix md */
+@media only screen and (min-width: 769px) {
+  .hero-img img,
+  .wbs-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .border-line {
+    border-top: none;
+  }
+
+  .footer-menu {
+    font-size: 1.2rem !important;
+  }
+
+  .link {
+    font-size: 0.95rem;
+  }
+
+  .footer-border {
+    border-right: 2px solid black;
+  }
+}
+
+/* Bootstrap Breakpoints antara >768px */
+/* Kode prefix lg */
+@media only screen and (min-width: 992px) {
+  #navbarDropdown {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2.5rem !important;
+  }
+
+  .text-content {
+    font-size: 1.25rem !important;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .border-line {
+    border-top: none;
+  }
+
+  .footer-border {
+    border-right: 2px solid black;
+  }
+
+  .social-text {
+    font-size: 1rem;
+  }
+}

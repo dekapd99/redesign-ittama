@@ -3,10 +3,8 @@ body, a, ul, li, p
 */
 body {
   font-family: "Inter", sans-serif;
-  /* margin: 0;
-  padding: 0; */
-  /* line-height: 1.5; */
 }
+
 a {
   text-decoration: none;
 }
@@ -23,17 +21,6 @@ ul {
 
 ul li {
   margin-bottom: 0.25rem;
-}
-
-/* Buttons */
-.btn {
-  color: black;
-  font-weight: 600;
-  font-size: 0.8125rem;
-}
-
-.btn:hover {
-  color: #ffffff;
 }
 
 /* Konten */
@@ -54,6 +41,148 @@ ul li {
 
 #navbarDropdown {
   font-size: 1rem;
+}
+
+/* Hero */
+
+/* Footer */
+.right-footer {
+  border-left: 3px solid black;
+}
+
+/* Footer Link Hover, After dan Transform */
+.link {
+  position: relative;
+}
+
+.link:hover {
+  color: #ffffff !important;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Border Footer */
+.border-line {
+  border-top: 2px solid black;
+}
+
+/* Social Media Icon Hover, Transition, dan Transform */
+.social-text {
+  font-size: 1.25rem;
+}
+
+.social-icon {
+  height: auto;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.social-icon i {
+  transition: 0.4s all;
+}
+
+.social-icon:hover i {
+  transform: scale(1.4);
+}
+
+.social-youtube {
+  color: #ff0000;
+}
+
+.social-instagram {
+  color: #e1306c;
+}
+
+.social-facebook {
+  color: #4267b2;
+}
+
+/* Accordion */
+.accordion {
+  font-weight: 600;
+  background-color: #fff;
+  color: #012029;
+  box-shadow: none;
+}
+
+.accordion:hover {
+  font-weight: 600;
+  background-color: #fff;
+  color: #012029;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+  background-color: #fff;
+  color: #012029;
+}
+
+.accordion-button {
+  box-shadow: none;
+  font-weight: 600;
+  background-color: #fff;
+  color: #012029;
+}
+
+.accordion-button:hover {
+  font-weight: 600;
+  background-color: #ffc107;
+  color: #012029;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-header:hover {
+  background-color: #ffff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-header:focus {
+  background-color: #ffff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-body {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-body:hover {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-body:focus {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
 }
 
 /* Konten Container1 */
@@ -134,89 +263,7 @@ ul li {
   transform: none;
   opacity: 1;
 }
-.h1 {
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-.berita-hero {
-  border-top-left-radius: 250px;
-  border-bottom-left-radius: 250px;
-}
-.card-tugas {
-  border-radius: 0.5rem;
-}
-
-/* Footer */
-.right-footer {
-  border-left: 3px solid black;
-}
-
-/* Footer Link Hover, After dan Transform */
-.link {
-  position: relative;
-}
-
-.link:hover {
-  color: #ffffff !important;
-}
-
-.link:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffffff;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.link:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* Border Footer */
-.border-line {
-  border-top: 2px solid black;
-}
-
-/* Social Media Icon Hover, Transition, dan Transform */
-.social-text {
-  font-size: 1.25rem;
-}
-
-.social-icon {
-  height: auto;
-  width: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 1.5rem;
-}
-
-.social-icon i {
-  transition: 0.4s all;
-}
-
-.social-icon:hover i {
-  transform: scale(1.4);
-}
-
-.social-youtube {
-  color: #ff0000;
-}
-
-.social-instagram {
-  color: #e1306c;
-}
-
-.social-facebook {
-  color: #4267b2;
-}
+/* end container1 */
 
 /* Bootstrap Breakpoints antara >576px */
 /* Kode prefix sm */
@@ -228,11 +275,25 @@ ul li {
   #navbarDropdown {
     font-size: 14px;
   }
+
+  .hero-text {
+    order: 1;
+  }
+
+  .hero-img {
+    order: 2;
+  }
 }
 
 /* Bootstrap Breakpoints antara >768px */
 /* Kode prefix md */
 @media only screen and (min-width: 769px) {
+  .hero-img img,
+  .wbs-img img {
+    width: 100%;
+    height: auto;
+  }
+
   .border-line {
     border-top: none;
   }
@@ -250,41 +311,39 @@ ul li {
   }
 }
 
-/* Bootstrap Breakpoints antara >992px */
+/* Bootstrap Breakpoints antara >768px */
 /* Kode prefix lg */
 @media only screen and (min-width: 992px) {
-  /* Responsive Tablet dan PC Navbar Menu Font Size */
   #navbarDropdown {
     font-size: 1rem;
   }
 
-  /* Responsive Tablet dan PC Button */
-  .btn {
-    font-size: 1rem;
-  }
-
-  /* Responsive Tablet dan PC Judul */
   .title {
     font-size: 2.5rem !important;
   }
 
-  /* Responsive Tablet dan PC Text Content */
   .text-content {
     font-size: 1.25rem !important;
   }
 
-  /* Responsive Tablet dan PC Border Line */
+  .btn {
+    font-size: 1rem;
+  }
+
   .border-line {
     border-top: none;
   }
 
-  /* Responsive Tablet dan PC Footer Border */
   .footer-border {
     border-right: 2px solid black;
   }
 
-  /* Responsive Tablet dan PC Social Media Text */
   .social-text {
     font-size: 1rem;
   }
+}
+
+.hero-tentang {
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
 }
