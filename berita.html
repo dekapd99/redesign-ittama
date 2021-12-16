@@ -26,17 +26,16 @@
 </head>
 
 <body>
-  <div>
+  <div class="container-fluid">
     <!-- Header Page -->
     <header>
       <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
           <!-- Navbar Logo -->
-          <a class="navbar-brand" href="beranda.html"><img class="img-fluid" src="img/navbar-logo-setjen.png" alt="..."
-              class="align-text-center"></a>
+          <a class="navbar-brand" href="beranda.html"><img class="img-fluid" src="img/navbar-logo-setjen.png" alt="..." class="align-text-center"></a>
           <!-- Navbar Title -->
-          <p class="navbar-title fw-bold">Inspektorat Utama <br> Sekretariat Jenderal DPR RI</p>
+          <p class="navbar-title fw-bold">Inspektorat Utama   Sekretariat Jenderal DPR RI</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -83,7 +82,8 @@
                   Layanan
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="wbs.html"><i class="bi bi-flag me-2"></i>Whistleblow</a></li>
+                  <li><a class="dropdown-item" href="wbs-landingpage.html"><i
+                        class="bi bi-flag me-2"></i>Whistleblow</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-chat-left-dots me-2"></i>PPID</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-cash-stack me-2"></i>LHKASN</a></li>
                   <li><a class="dropdown-item" href="#"><i class="bi bi-search me-2"></i>SISUSAN</a></li>
@@ -122,144 +122,171 @@
     </header>
     <!-- Batas Akhir Header Page -->
 
-    <!-- Content -->
-    <!-- Berita Hero -->
-    <section mt-0>
-      <div class="row align-items-center">
-        <div class="col-6">
-          <div class="ms-5">
-            <h2 class="fw-bolder mt-5">
-              Ittama DPR Sosialisasi <br>Pemetaan dan Manajemen<br>Risiko Unit Kerja
-            </h2>
-            <p class="fs-6">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
-              terkait Penyusunan Risk</p>
-            <button class="btn btn-outline-warning mt-4">Selengkapnya</button>
-            <div class="mt-5">
-              <img src="" class="border border-5 border-warning rounded-pill ">
-              <img src="" class="border border-5 border-warning rounded-pill lonjong">
-            </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <img src="./img/berita-hero.png" class="img-fluid berita-hero">
-        </div>
+    <!-- Berita Atas HP Screen Size Responsive -->
+    <div class="hero-responsive row text-center">
+      <div class="col-12 mb-4">
+        <img src="./img/berita-hero-responsive.png" class="img-fluid">
       </div>
-    </section>
-    <!-- Berita Hero -->
 
-    <!-- Berita (Card dan Row Atas)-->
-    <section class="ms-5 me-5 mt-5 mb-5">
-
-      <!--Row Atas Berita -->
-      <div class="row-berita">
-        <!-- Link Tag -->
+      <div class="col-12">
+        <!-- Judul Berita -->
+        <p class="title fw-bolder">
+          Ittama DPR Sosialisasi Pemetaan dan Manajemen Risiko Unit Kerja
+        </p>
         <div>
+          <p class="text-content mt-2">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
+            terkait Penyusunan Risk
+          </p>
+          <button class="btn btn-outline-warning my-3">Selengkapnya</button>
           <div>
-            <a href="" class="tag-link border-bottom border-warning">All</a>
-            <a href="" class="tag-link">Berita</a>
-            <a href="" class="tag-link">Rubrik</a>
-          </div>
-        </div>
-        <!-- Link Tag -->
-
-        <!-- Dropdown Menu -->
-        <div class="me-3">
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Urut Waktu</option>
-            <option value="1">Urut Judul</option>
-          </select>
-        </div>
-        <!-- Dropdown Menu -->
-
-        <!-- Search Bar -->
-        <div>
-          <div class="input-group">
-            <span class="input-group-append">
-              <button class="btn btn-outline-secondary bg-white border-end-0 border me-n3" type="button">
-                <i class="fa fa-search"></i>
-              </button>
-            </span>
-            <input class="form-control border-end-0 border" type="text" placeholder="Cari" id="example-search-input">
-          </div>
-        </div>
-        <!-- Search Bar -->
-
-      </div>
-      <!--Row Atas Berita -->
-
-
-      <!-- Card Berita -->
-      <div class="news-card mt-5">
-        <div>
-          <div class="card">
-            <img src="img/berita-card-2.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <p class="badge rounded-pill bg-danger">Berita</p>
-              <h5 class="card-title fw-bold lh-base">Setjen DPR Raih Level 3<br>Pengelolaan Internal Terbaik</h5>
-              <div class="keterangan-card">
-                <i class="bi bi-clock me-1"></i>
-                <p class="border-bottom border-warning">5 Menit membaca</p>
-
-                <i class="bi bi-eye ms-5 me-1"></i>
-                <p class="border-bottom border-warning">120 views</p>
-              </div>
-              <p class="card-text">Sekretariat Jenderal (Setjen) DPR RI meraih level 3 terbaik dalam pengelolaan
-                manajemen dan juga level 3.</p>
-              <a href="#" class="btn btn-outline-warning mt-3 py-2 text-center">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="card">
-            <img src="img/berita-card-1.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <p class="badge rounded-pill bg-primary">Rubrik</p>
-              <h5 class="card-title fw-bold lh-base">Ittama DPR Sosialisasi<br>Pemetaan dan Manajemen<br>Risiko Unit
-                Kerja</h5>
-              <div class="keterangan-card">
-                <i class="bi bi-clock me-1"></i>
-                <p class="border-bottom border-warning">5 Menit membaca</p>
-
-                <i class="bi bi-eye ms-5 me-1"></i>
-                <p class="border-bottom border-warning">120 views</p>
-              </div>
-              <p class="card-text">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
-                terkait Penyusunan Risk</p>
-              <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="card">
-            <img src="img/berita-card-1.png" class="card-img-top" alt="">
-            <div class="card-body">
-              <p class="badge rounded-pill bg-danger">Berita</p>
-              <h5 class="card-title fw-bold lh-base">Ittama DPR Sosialisasi<br>Pemetaan dan Manajemen<br>Risiko Unit
-                Kerja
-              </h5>
-              <div class="keterangan-card">
-                <i class="bi bi-clock me-1"></i>
-                <p class="border-bottom border-warning">5 Menit membaca</p>
-
-                <i class="bi bi-eye ms-5 me-1"></i>
-                <p class="border-bottom border-warning">120 views</p>
-              </div>
-              <p class="card-text">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
-                terkait Penyusunan Risk</p>
-              <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
-            </div>
+            <img src="" class="border border-5 border-warning rounded-pill ">
+            <img src="" class="border border-5 border-warning rounded-pill">
           </div>
         </div>
       </div>
-      <!-- Card Berita -->
-    </section>
-    <!-- Berita (Card dan Row Atas) -->
 
+    </div>
+
+    <!-- Berita Atas Normal Screen Size -->
+    <div class="hero-normal row align-items-center">
+      <div class="col-5 offset-1">
+        <!-- Judul Berita -->
+        <p class="title fw-bolder">
+          Ittama DPR Sosialisasi Pemetaan dan Manajemen Risiko Unit Kerja
+        </p>
+        <div>
+          <p class="text-content mt-2">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
+            terkait Penyusunan Risk
+          </p>
+          <button class="btn btn-outline-warning my-3">Selengkapnya</button>
+          <div>
+            <img src="" class="border border-5 border-warning rounded-pill ">
+            <img src="" class="border border-5 border-warning rounded-pill">
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="./img/berita-hero.png" class="img-fluid berita-hero">
+      </div>
+    </div>
   </div>
-  <!-- Batas Akhir Content -->
 
+  <!-- Video Berita -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-8 ">
+        <div class="ratio ratio-16x9">
+          <iframe  width="560" height="315" src="https://www.youtube.com/embed/_NZCKZdB3TU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Berita Bawah -->
+  <div class="container">
+
+    <!-- Row Select, Search Form, dan ViewPager -->
+    <div class="row align-items-center">
+
+      <!-- ViewPager -->
+      <div class="mt-3 col-md-4 text-center text-md-start">
+        <a href="" class="tag-link border-bottom border-warning">All</a>
+        <a href="" class="tag-link">Berita</a>
+        <a href="" class="tag-link">Rubrik</a>
+      </div>
+
+      <!-- Select Form -->
+      <div class="mt-3 col-md-4">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Urut Waktu</option>
+          <option value="1">Urut Judul</option>
+        </select>
+      </div>
+
+      <!-- Search Form -->
+      <div class="mt-3 col-md-4">
+        <div class="input-group">
+          <span class="input-group-append">
+            <button class="btn btn-outline-secondary bg-white border-end-0 border" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </span>
+          <input class="form-control border-end-0 border" type="text" placeholder="Cari" id="example-search-input">
+        </div>
+      </div>
+    </div>
+
+    <!-- Row Card -->
+    <div class="row my-5">
+
+      <!-- Card Berita 1 -->
+      <div class="col-md-6 col-xl-4">
+        <div class="card">
+          <img src="img/berita-card-2.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="badge rounded-pill bg-danger">Berita</p>
+            <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Setjen DPR Raih Level 3 Pengelolaan Internal Terbaik</p>
+            <div class="keterangan-card my-2">
+              <i class="bi bi-clock me-1"></i>
+              <p class="border-bottom border-warning">5 Menit membaca</p>
+              <i class="bi bi-eye ms-5 me-1"></i>
+              <p class="border-bottom border-warning">120 views</p>
+            </div>
+            <p text-limit="100" class="card-text">Sekretariat Jenderal (Setjen) DPR RI meraih level 3 terbaik dalam pengelolaan
+              manajemen dan juga level 3.</p>
+            <a href="#" class="btn btn-outline-warning mt-3 py-2 text-center">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Berita 2 -->
+      <div class="mt-4 col-md-6 mt-md-0 col-xl-4">
+        <div class="card">
+          <img src="img/berita-card-1.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="badge rounded-pill bg-primary">Rubrik</p>
+            <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Ittama DPR Sosialisasi Pemetaan dan Manajemen Risiko Unit
+              Kerja</p>
+            <div class="keterangan-card my-2">
+              <i class="bi bi-clock me-1"></i>
+              <p class="border-bottom border-warning">5 Menit membaca</p>
+
+              <i class="bi bi-eye ms-5 me-1"></i>
+              <p class="border-bottom border-warning">120 views</p>
+            </div>
+            <p text-limit="100" class="card-text">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
+              terkait Penyusunan Risk</p>
+            <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Berita 3 -->
+      <div class="mt-4 col-md-6 col-xl-4 mt-xl-0">
+        <div class="card">
+          <img src="img/berita-card-1.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="badge rounded-pill bg-primary">Rubrik</p>
+            <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Ittama DPR Sosialisasi Pemetaan dan Manajemen Risiko Unit
+              Kerja</p>
+            <div class="keterangan-card my-2">
+              <i class="bi bi-clock me-1"></i>
+              <p class="border-bottom border-warning">5 Menit membaca</p>
+
+              <i class="bi bi-eye ms-5 me-1"></i>
+              <p class="border-bottom border-warning">120 views</p>
+            </div>
+            <p text-limit="100" class="card-text">Inspektorat Utama (Ittama) Sekretariat Jenderal DPR RI menyelenggarakan forum diskusi
+              terkait Penyusunan Risk</p>
+            <a href="#" class="btn btn-outline-warning mt-3 py-2">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Footer -->
   <footer class="bg-warning">
     <div class="container-fluid py-4">
@@ -329,7 +356,8 @@
             <!-- Icon Social Media -->
             <div class="d-flex justify-content-center">
               <a href="#"><span class="social-icon social-youtube"><i class=" bi bi-youtube fs-2"></i></span></a>
-              <a href="#"><span class="social-icon social-instagram"><i class="bi bi-instagram fs-2 mx-5 mx-md-4 mx-lg-3"></i></span></a>
+              <a href="#"><span class="social-icon social-instagram"><i
+                    class="bi bi-instagram fs-2 mx-5 mx-md-4 mx-lg-3"></i></span></a>
               <a href="#"><span class="social-icon social-facebook"><i class="bi bi-facebook fs-2"></i></span></a>
             </div>
           </div>
@@ -345,6 +373,10 @@
   <!-- Batas Akhir Footer -->
 
   <!-- Optional JavaScript; choose one of the two! -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="/js/main.js"></script>
+
 
   <!-- Option 1: Bootstrap Bundle with Popper CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -357,11 +389,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-
-  <!-- Font Awesome -->
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/62924bb485.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

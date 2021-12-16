@@ -127,13 +127,19 @@ ul li{
 }
 
 /* Berita Hero */
+.hero-responsive{
+  margin: 2rem 0;
+  display: block;
+}
+
+.hero-normal{
+  margin: 2rem 0;
+  display: none;
+}
+
 .berita-hero {
   border-top-left-radius: 250px;
   border-bottom-left-radius: 250px;
-}
-
-.lonjong {
-  width: 80px;
 }
 
 .tag-link {
@@ -178,7 +184,27 @@ ul li{
 
 /* Bootstrap Breakpoints antara >768px */
 /* Kode prefix md */
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 767px){
+  /* Responsive Tablet dan PC Judul */
+  .title{
+    font-size: 1.125rem!important;;
+  }
+
+  /* Responsive Tablet dan PC Text Content */
+  .text-content{
+    font-size: 0.75rem!important;
+  }
+
+  /* Responsive Hero */
+  .hero-responsive{
+    display: none;
+  }
+
+  .hero-normal{
+    display: flex;
+  }
+  
+  /* Responsive Footer */
   .border-line{
       border-top: none;
   }
@@ -196,8 +222,20 @@ ul li{
   }
 }
 
+@media only screen and (min-width: 850px){
+  /* Responsive Tablet dan PC Judul */
+  .title{
+    font-size: 1.5rem!important;;
+  }
 
-/* Bootstrap Breakpoints antara >992px */
+  /* Responsive Tablet dan PC Text Content */
+  .text-content{
+    font-size: 1rem!important;
+  }
+}
+
+
+/* Bootstrap Breakpoints antara >991px */
 /* Kode prefix lg */
 @media only screen and (min-width: 992px){
   /* Responsive Tablet dan PC Navbar Menu Font Size */
@@ -208,16 +246,6 @@ ul li{
   /* Responsive Tablet dan PC Button */
   .btn{
       font-size: 1rem;
-  }
-
-  /* Responsive Tablet dan PC Judul */
-  .title{
-      font-size: 2.5rem!important;;
-  }
-
-  /* Responsive Tablet dan PC Text Content */
-  .text-content{
-      font-size: 1.25rem!important;
   }
 
   /* Responsive Tablet dan PC Border Line */
@@ -233,5 +261,17 @@ ul li{
   /* Responsive Tablet dan PC Social Media Text */
   .social-text{
       font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1100px){
+  /* Responsive Tablet dan PC Judul */
+  .title{
+    font-size: 2rem!important;;
+  }
+
+  /* Responsive Tablet dan PC Text Content */
+  .text-content{
+    font-size: 1.25rem!important;
   }
 }
