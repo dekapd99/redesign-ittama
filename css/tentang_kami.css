@@ -186,12 +186,12 @@ ul li {
 }
 
 /* Konten Container1 */
-.container1 {
+/* .container1 {
   padding: 2rem;
   padding-bottom: 100px;
   margin: 0 auto;
   max-width: 1000px;
-}
+} */
 .top-section {
   text-align: center;
   padding: 4rem 0;
@@ -265,6 +265,14 @@ ul li {
 }
 /* end container1 */
 
+.card-tugas {
+  border-radius: 15px;
+}
+
+#sdm img {
+  max-height: 50%;
+}
+
 /* Bootstrap Breakpoints antara >576px */
 /* Kode prefix sm */
 @media only screen and (min-width: 576px) {
@@ -277,11 +285,11 @@ ul li {
   }
 
   .hero-text {
-    order: 1;
+    order: 2;
   }
 
   .hero-img {
-    order: 2;
+    order: 1;
   }
 }
 
@@ -344,6 +352,6 @@ ul li {
 }
 
 .hero-tentang {
-  border-top-left-radius: 250px;
-  border-bottom-left-radius: 250px;
+  border-top-right-radius: 250px;
+  border-bottom-right-radius: 250px;
 }
