@@ -31,7 +31,16 @@ Redesign Website Ittama bertujuan untuk mendesain ulang website versi lama menja
 
 ### Pages:
 
-* 
+* Beranda
+* Publikasi
+* Kontak
+* Berita
+* Detail Berita
+* Galeri
+* Whistleblowing System (WBS)
+* LHKASN
+* SISUSAN
+* Hasil Pencarian
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
