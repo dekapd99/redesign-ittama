@@ -25,9 +25,11 @@ Redesign Website Ittama bertujuan untuk mendesain ulang website versi lama menja
 
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
+* [Popper.js](https://popper.js.org)
 * [Figma](https://www.figma.com/file/zXknh6mDUJQ9YrNV27nCGJ/Redesign-Website-DPR?node-id=58%3A2)
+* [Domainesia](https://www.domainesia.com)
 
-### Features:
+### Pages:
 
 * 
 
@@ -96,6 +98,6 @@ Anggota Kelompok Kharis Suhud yang berkontribusi dalam pengerjaan proyek terdiri
 
 <!-- What Kind of License? -->
 ## License
-License ?
+License 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
