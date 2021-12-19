@@ -23,33 +23,6 @@ ul li{
     margin-bottom: 0.25rem;
 }
 
-/* CSS Search bar */
-.height {
-    height: 100vh
-}
-
-.form {
-    position: relative
-}
-
-.form .fa-search {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: #ffc107;
-}
-
-.form-input {
-    height: 55px;
-    text-indent: 33px;
-    border-radius: 10px
-}
-
-.form-input:focus {
-    box-shadow: 3px 3px 50px grey;
-    border: none; 
-}
-
 /* Buttons */
 .btn{
     color: black;
@@ -163,8 +136,8 @@ ul li{
     color: #E1306C;
 }
 
-.social-facebook{
-    color: #4267B2;
+.social-twitter{
+    color: #00ACEE;
 }
 
 /* Bootstrap Breakpoints antara >576px */

@@ -1,28 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Bootstrap Icon CDN-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/publikasi.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Judul Website -->
-  <title>Publikasi Peraturan | Ittama</title>
+  <title>Galeri | Ittama</title>
 
   <!-- Browser Icon -->
   <link rel="icon" href="img/navbar-logo-setjen.png">
@@ -30,6 +30,7 @@
 
 <body>
   <div class="container-fluid">
+
     <!-- Header Page -->
     <header>
       <!-- Navigation Bar -->
@@ -145,30 +146,33 @@
     </header>
     <!-- Batas Akhir Header Page -->
 
-    <!--Content -->
-    <div class="container">
+    <!-- Breadcrumbs-->
+    <div class="container my-4">
       <div class="row">
-        <div class="col-12 text-center my-5">
-          <h1 class="fw-bold">Publikasi</h1>
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" class="text-warning">Tentang Kami</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Galeri</li>
+            </ol>
+          </nav>
         </div>
-        <div class="col-12 col-md-3">
-          <h5 class="text-start fw-bold">Peraturan</h5>
-        </div>
-        <div class="col-4 col-md-3">
-          <select class="form-select" aria-label="Default select example">
-            <option disbled="disabled" selected="selected" style="display: none">Jenis Peraturan</option>
-            <option value="1">Internal</option>
-            <option value="2">Eksternal</option>
-          </select>
-        </div>
-        <div class="col-4 col-md-3">
+      </div>
+    </div>
+
+    <!-- Form Select dan Search -->
+    <div class="container my-4">
+      <div class="row">
+        <!-- Select Form -->
+        <div class="col-6 offset-0 col-md-4 offset-md-4">
           <select class="form-select" aria-label="Default select example">
             <option selected>Urut Waktu</option>
             <option value="1">Urut Judul</option>
           </select>
         </div>
-        <!-- search bar -->
-        <div class="col-4 col-md-3">
+
+        <!-- Search Form -->
+        <div class="col-6 col-md-4">
           <div class="input-group">
             <span class="input-group-append">
               <button class="btn btn-outline-secondary bg-white border-end-0 border" type="button">
@@ -180,64 +184,107 @@
         </div>
       </div>
     </div>
-    <!-- search bar -->
-    <!-- tabel -->
-    <div class="container-fluid py-2">
-      <div class="container">
-        <div class="table-responsive">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Judul</th>
-                <th scope="col">Jenis Peraturan</th>
-                <th scope="col">Download File</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Kebijakan Pengawasan Inspektorat Utama 2021</td>
-                <td>Internal</td>
-                <td><a href="#"><span class="social-icon"><i
-                        class=" bi bi-cloud-arrow-down text-warning fs-2"></i></span></a></td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Kebijakan Pengawasan Inspektorat Utama 2020</td>
-                <td>Internal</td>
-                <td><a href="#"><span class="social-icon"><i
-                        class=" bi bi-cloud-arrow-down text-warning fs-2"></i></span></a></td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Rencana Strategis Inspektorat I Tahun 2015-2019</td>
-                <td>Internal</td>
-                <td><a href="#"><span class="social-icon"><i
-                        class=" bi bi-cloud-arrow-down text-warning fs-2"></i></span></a></td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Peraturan Presiden Nomor 26 Tahun 2020 tentang Sekretariat...</td>
-                <td>Eksternal</td>
-                <td><a href="#"><span class="social-icon"><i
-                        class=" bi bi-cloud-arrow-down text-warning fs-2"></i></span></a></td>
-              </tr>
-              <tr>
-                <th scope="row">5</th>
-                <td>Peraturan Presiden Nomor 16 Tahun 2018</td>
-                <td>Eksternal</td>
-                <td><a href="#"><span class="social-icon"><i
-                        class=" bi bi-cloud-arrow-down text-warning fs-2"></i></span></a></td>
-              </tr>
-            </tbody>
-          </table>
+
+    <!-- Card Galeri Foto -->
+    <div class="container mb-5">
+      <div class="row justify-content-center gy-3">
+        <!-- Card Foto 1 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Seminar Nasional 2021 dengan tema "Pencegahan Permasalahan Pengadaan
+                Barang dan Jasa" pada tanggal 10 November 2021</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 2 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri2.png" class="card-img-top" alt="" height="275">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Pengenalan Sistem Manajemen Anti Penyuapan SNI ISO 37001:2016</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 3 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Penyerahan Hasil Penjaminan Kualitas Atas Self Assesment Maturitas SPIP dan Kapabilitas APIP kepada BPKP</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 4 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri4.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Bimbingan Teknis Penyusunan PKPT Berbasis Risiko</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 5 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri5.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Workshop Perencanaan Pengawasan Berorientasi Hasil Berbasis Logic
+                Model, 19 Juli 2019</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 6 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/tentang_kami_galeri6.png" class="card-img-top" alt="" height="275">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Submit Penilaian Mandiri Pelaksanaan Zona Integritas (PMPZI) 2020</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 7 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/galeri-7.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Workshop Budaya Integritas Nasional Dalam Pusaran Keluarbiasaan, Keunggulan, dan Dinamika Lingkungan Strategis</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 1 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/galeri-8.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Bimbingan Teknis PMPZI oleh KemenPan RB
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card Foto 8 -->
+        <div class="col-md-6 col-xl-4">
+          <div class="card">
+            <img src="img/galeri-9.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <p text-limit="45" class="card-title fs-5 fw-bold lh-base">Bimbingan Teknis Terkait Peta Proses Bisnis oleh KemenPAN RB
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Content -->
   </div>
-
+  
   <!-- Footer -->
   <footer class="bg-warning">
     <div class="container-fluid py-4 mt-5 ">
@@ -332,7 +379,13 @@
   <!-- Batas Akhir Footer -->
 
   <!-- Optional JavaScript; choose one of the two! -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
 
+  <script type="text/javascript" src="/js/main.js"></script>
+
+  
   <!-- Option 1: Bootstrap Bundle with Popper CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
