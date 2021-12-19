@@ -113,11 +113,6 @@ ul li{
     transform: scale(1.3);
 }
 
-/* Footer */
-.right-footer{
-    border-left: 3px solid black;
-}
-
 /* Footer Link Hover, After dan Transform */
 .link{
     position: relative;
@@ -181,11 +176,9 @@ ul li{
     color: #E1306C;
 }
 
-.social-facebook{
-    color: #4267B2;
+.social-twitter{
+    color: #00ACEE;
 }
-
-
 
 /* Bootstrap Breakpoints antara >576px */
 /* Kode prefix sm */
@@ -197,90 +190,63 @@ ul li{
     #navbarDropdown{
         font-size: 14px;
     }
+    
+    .hero-text{
+        order: 1;
+    }
+    
+    .hero-img{
+        order: 2;
+    }
 }
-
-
 
 /* Bootstrap Breakpoints antara >768px */
 /* Kode prefix md */
-@media only screen and (min-width: 769px){
-    /* Responsive Tablet Timeline */
-    .timeline-steps .timeline-step:not(:last-child):after {
-        content: "";
-        display: block;
-        border-top: .25rem solid #FFC107;
-        width: 3.46rem;
-        position: absolute;
-        left: 7.5rem;
-        top: .3125rem
-    }
-    .timeline-steps .timeline-step:not(:first-child):before {
-        content: "";
-        display: block;
-        border-top: .25rem solid #FFC107;
-        width: 3.8125rem;
-        position: absolute;
-        right: 7.5rem;
-        top: .3125rem
-    }
-    
-    /* Responsive Tablet Footer Border Line */
+@media only screen and (min-width: 767px){
     .border-line{
         border-top: none;
     }
 
-    /* Responsive Tablet Footer Menu */
     .footer-menu{
         font-size: 1.2rem !important;
     }
 
-    /* Responsive Tablet Footer Link */
     .link{
         font-size: 0.95rem;
     }
 
-    /* Responsive Tablet Footer Border */
     .footer-border{
         border-right: 2px solid black;
     }
 }
 
-
-
-/* Bootstrap Breakpoints antara >992px */
+/* Bootstrap Breakpoints antara >768px */
 /* Kode prefix lg */
 @media only screen and (min-width: 992px){
-    /* Responsive Navbar Menu Font Size */
     #navbarDropdown{
         font-size: 1rem;
     }
-
-    /* Responsive Tablet dan PC Button */
-    .btn{
-        font-size: 1rem;
-    }
-
-    /* Responsive Tablet dan PC Judul */
+    
     .title{
         font-size: 2.5rem!important;;
     }
 
-    /* Responsive Tablet dan PC Text Content */
     .text-content{
         font-size: 1.25rem!important;
     }
+    
+    .btn{
+        font-size: 1rem;
+    }
 
-    /* Responsive Tablet dan PC Border Line */
     .border-line{
         border-top: none;
     }
 
-    /* Responsive Tablet dan PC Footer Border */
     .footer-border{
         border-right: 2px solid black;
     }
-
-    /* Responsive Tablet dan PC Social Media Text */
+    
     .social-text{
         font-size: 1rem;
     }
